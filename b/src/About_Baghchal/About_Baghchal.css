@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box_right {
+    height: 100%;
+    width: 100%;
+    margin-top: 0.3vw;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+.box_right img {
+    height: 100%;
+    width: 100%;
+    margin-top: 0.3vw;
+}
+
+.box_left {
+    height: 100%;
+    width: 100%;
+    margin-top: 4vw;
+    font-family: 'Agbalumo', cursive;
+    height: 6vw;
+    font-size: 28px;
+}
+
+.left_top {
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+.box_left h1 {
+    color: blueviolet;
+}
+
+.result p {
+    padding-right: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}

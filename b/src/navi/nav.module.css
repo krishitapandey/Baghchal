@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@500&family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@500&display=swap');
+.navigation img {
+    height: 5.7vw;
+    width: 100%;
+    margin-top: 0.3vw;
+}
+
+.navigation {
+    font-family: 'Agbalumo', cursive;
+    justify-content: space-between;
+    height: 6vw;
+    background-color: #d6dfea;
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.navigation ul {
+    display: flex;
+    width: 30vw;
+    gap: 3vw;
+    list-style: none;
+    font-weight: 60px;
+    font-size: 1.6vw;
+    cursor: pointer;
+    padding-right: 6%;
+}
+
+li a {
+    color: rgb(246, 127, 7);
+    ;
+    transition: 0.3s all ease;
+}
+
+li:hover {
+    transform: scale(2);
+    font-size: 1vw;
+}
+
+
+/* if multiple classname required then{ `${styles.navigation} conatiner`} */
